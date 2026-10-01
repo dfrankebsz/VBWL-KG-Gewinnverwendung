@@ -1,0 +1,12 @@
+{
+  "name": "KG Gewinnverwendung – Lernkurs",
+  "short_name": "KG Lernkurs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#17365d",
+  "lang": "de",
+  "icons": [
+    {"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

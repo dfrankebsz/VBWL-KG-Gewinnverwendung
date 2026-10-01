@@ -1,0 +1,18 @@
+[build]
+  publish = "site"
+  functions = "netlify/functions"
+  command = "echo 'Statischer Lernkurs – kein Frontend-Build erforderlich'"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/api"
+  to = "/.netlify/functions/api"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
